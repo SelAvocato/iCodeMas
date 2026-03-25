@@ -1,5 +1,25 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    font-family: Inter, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+::-webkit-scrollbar{
+    background-color: rgba(209, 206, 206, 0.541);
+
+    width: 7px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: rgb(165, 165, 165);
+
+    border-radius: 4px;
 }

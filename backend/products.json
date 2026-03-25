@@ -4,8 +4,8 @@
     "name": "Christmas Tree Decoration",
     "image": "images/Christmas Tree Decoration.jpg",
     "price": 19.99,
-    "label": "NEW",
-    "button": "Add to cart"
+    "label": "New",
+    "isFeatured": true
   },
   {
     "id": "2",
@@ -13,14 +13,15 @@
     "image": "images/Gift Box.jpg",
     "price": 9.99,
     "oldPrice": 12.99,
-    "discount": "-33%"
+    "label": "-33%",
+    "isFeatured": true
   },
   {
     "id": "3",
     "name": "Gingerbread Man Cookie",
     "image": "images/Gingerbread Man Cookie.jpg",
     "price": 12.99,
-    "button": "Added to cart"
+    "isFeatured": true
   },
   {
     "id": "4",

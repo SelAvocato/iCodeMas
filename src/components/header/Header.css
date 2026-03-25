@@ -1,0 +1,110 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    max-height: 80px;
+
+    padding: 1rem 3rem;
+}
+
+.header-left {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 3rem;
+}
+
+.header-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.search-container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5px;
+
+    background-color: #EFF2F6;
+
+    max-width: 300px;
+    max-height: 48px;
+
+    padding: 1rem 0.5rem;
+
+    border-radius: 25px;
+}
+
+.search-icon{
+    width: 25px;
+    height: auto;
+}
+
+#header-search-input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+
+    font-size: 16px;
+}
+
+.header-right {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
+}
+
+.anchor-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+
+}
+
+.anchor-links a {
+    font-size: 16;
+    font-weight: 500;
+    color: black;
+}
+
+svg {
+    width: 30px;
+    height: auto;
+}
+
+.bag-container {
+    position: relative;
+    
+    cursor: pointer;
+}
+
+.bag-icon {
+    width: 25px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.bag-red-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+    right: -6px;
+    top: -4px;
+
+    width: 18px;
+    height: 18px;
+
+    border-radius: 50%;
+
+    background-color: red;
+
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+}

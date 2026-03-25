@@ -1,0 +1,33 @@
+#discount-container.shown {
+    position: relative;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+
+    background-color: #FCD6CF;
+
+    width: 100%;
+    max-height: 44px;
+}
+
+#discount-text {
+    font-size: 14px;
+}
+
+#discount-close {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+
+    font-size: 15px;
+    
+    cursor: pointer;
+}
+
+#discount-container.hidden{
+    display: none;
+}

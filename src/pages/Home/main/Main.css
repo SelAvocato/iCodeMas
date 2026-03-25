@@ -1,0 +1,57 @@
+main {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: center;
+
+    background-image: url('main-bg.png');
+    background-color: #06313B;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    width: 100%;
+    height: 756px;
+}
+
+.main-header {
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+}
+
+.main-subtext {
+    font-size: 16px;
+    color: white;
+
+    margin-bottom: 3rem;
+}
+
+.countdown-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 144px);
+    grid-template-rows: 180px;
+    gap: 1rem;
+}
+
+.countdown-card {
+    background-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#countdown-text{
+    font-size: 72px;
+    font-weight: bold;
+    color: #305C70;
+}
+
+.card-time{
+    font-size: 16px;
+    font-weight: 600;
+    color: #305C70;
+}

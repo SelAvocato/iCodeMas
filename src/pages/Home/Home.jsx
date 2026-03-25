@@ -1,3 +1,4 @@
+import { Discount } from '../../components/discount/Discount.jsx'
 import { Main } from './main/Main.jsx'
 import { Header } from '../../components/header/Header.jsx'
 import { Featured } from './featured/Featured.jsx'
@@ -11,6 +12,7 @@ import { Footer } from '../../components/footer/Footer.jsx'
 export function Home() {
     return (
         <>
+            <Discount />
             <Header />
             <Main />
             <Featured />
