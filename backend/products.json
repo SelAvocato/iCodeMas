@@ -1,0 +1,79 @@
+[
+  {
+    "id": "1",
+    "name": "Christmas Tree Decoration",
+    "image": "images/Christmas Tree Decoration.jpg",
+    "price": 19.99,
+    "label": "NEW",
+    "button": "Add to cart"
+  },
+  {
+    "id": "2",
+    "name": "Gift Box",
+    "image": "images/Gift Box.jpg",
+    "price": 9.99,
+    "oldPrice": 12.99,
+    "discount": "-33%"
+  },
+  {
+    "id": "3",
+    "name": "Gingerbread Man Cookie",
+    "image": "images/Gingerbread Man Cookie.jpg",
+    "price": 12.99,
+    "button": "Added to cart"
+  },
+  {
+    "id": "4",
+    "name": "Snowflake Decoration",
+    "image": "images/Snowflake Decoration.jpg",
+    "price": 4.99
+  },
+  {
+    "id": "5",
+    "name": "Star-shaped Cookie",
+    "image": "images/Star-shaped Cookie.jpg",
+    "price": 12.99
+  },
+  {
+    "id": "6",
+    "name": "Santa's Hat",
+    "image": "images/Santas Hat.jpg",
+    "price": 39.99
+  },
+  {
+    "id": "7",
+    "name": "Candy Cane",
+    "image": "images/Candy Cane.jpg",
+    "price": 8.99
+  },
+  {
+    "id": "8",
+    "name": "Snowman Decoration",
+    "image": "images/Snowman Decoration.jpg",
+    "price": 39.99
+  },
+  {
+    "id": "9",
+    "name": "Christmas Ball",
+    "image": "images/Christmas Ball.jpg",
+    "price": 4.99
+  },
+  {
+    "id": "10",
+    "name": "Red Christmas Socks",
+    "image": "images/Red Christmas Socks.jpg",
+    "price": 29.99
+  },
+  {
+    "id": "11",
+    "name": "Red Ribbon",
+    "image": "images/Red Ribbon.jpg",
+    "price": 3.99
+  },
+  {
+    "id": "12",
+    "name": "Christmas Tree Cookie",
+    "image": "images/Christmas Tree Cookie.jpg",
+    "price": 13.99
+  }
+]
