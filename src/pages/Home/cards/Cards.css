@@ -1,0 +1,84 @@
+#cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    margin: 2rem 5rem;
+    max-width: 100vw;
+}
+
+.img-container {
+    max-width: 636px;
+    max-height: 360px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.card-footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.2rem 1rem;
+    color: white;
+}
+
+.card-container.shop-now {
+    background-color: #227293;
+}
+
+.card-container.gift-card {
+    background-color: #E55952;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: 500;
+
+    margin-bottom: 0.5rem;
+}
+
+.convincing-message {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    border: none;
+    outline: none;
+
+    background-color: white;
+
+    cursor: pointer;
+}
+
+.card-button.shop {
+    width: 44px;
+    height: 44px;
+
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+
+.card-button svg {
+    width: 20px;
+    height: 20px;
+}
+
+.card-button.gift {
+    padding: 0.7rem 1rem;
+
+    border-radius: 22px;
+
+    font-size: 16px;
+    font-weight: 500;
+}
