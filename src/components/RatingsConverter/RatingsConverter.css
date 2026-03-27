@@ -1,0 +1,6 @@
+.stars{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    margin-block: 1rem;
+}

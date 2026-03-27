@@ -4,6 +4,7 @@
     "name": "Christmas Tree Decoration",
     "image": "images/Christmas Tree Decoration.jpg",
     "price": 19.99,
+    "ratings": 4.5,
     "label": "New",
     "isFeatured": true
   },
